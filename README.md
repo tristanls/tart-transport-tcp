@@ -86,8 +86,8 @@ listen({host: 'localhost', port: 7847, customer: listenAck});
 
   * [transport.sendBeh](#transportsendbeh)
   * [transport.server(receptionist)](#transportserverreceptionist)
-  * [serverCapabilities.closeBeh](servercapabilitiesclosebeh)
-  * [serverCapabilities.listenBeh](servercapabilitieslistenbeh)
+  * [serverCapabilities.closeBeh](#servercapabilitiesclosebeh)
+  * [serverCapabilities.listenBeh](#servercapabilitieslistenbeh)
 
 ### transport.sendBeh
 
@@ -109,8 +109,8 @@ send({address: 'tcp://localhost:7847', content: '{"some":{"json":"content"}}'});
 
   * `receptionist`: _Actor_ `function (message) {}` Actor to forward traffic received by this server in {address: <token>, contents: <json>} format.
   * Return: _Object_ An object containing behaviors for listen and close capabilities.
-    * `closeBeh`: [serverCapabilities.closeBeh](servercapabilitiesclosebeh)
-    * `listenBeh`: [serverCapabilities.listenBeh](servercapabilitieslistenbeh)
+    * `closeBeh`: [serverCapabilities.closeBeh](#servercapabilitiesclosebeh)
+    * `listenBeh`: [serverCapabilities.listenBeh](#servercapabilitieslistenbeh)
 
 Creates an entangled pair of capabilities that will control a single TCP server.
 
