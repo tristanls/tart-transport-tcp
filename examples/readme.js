@@ -58,7 +58,7 @@ var fail = sponsor(function (error) {
 var listenAck = sponsor(function listenAckBeh(message) {
     console.log('transport listening on tcp://' + message.host + ':' + message.port);
     send({
-        address: 'tcp://localhost:7847', 
+        address: 'tcp://localhost:7847/#t5YM5nxnJ/xkPTo3gtHEyLdwMRFIwyJOv5kvcFs+FoMGdyoDNgSLolq0',
         content: '{"some":{"json":"content"},"foo":true}',
         fail: fail,
         ok: function () {
@@ -66,7 +66,7 @@ var listenAck = sponsor(function listenAckBeh(message) {
         }
     });
     send({
-        address: 'tcp://localhost:7847', 
+        address: 'tcp://localhost:7847/#I0InGCVn0ApX0YBnF5+JFMheKOajHkaTrNthYRI2hOj4GrM5IaWO1Cv0',
         content: '{"some":{"json":"content"},"bar":true}',
         fail: fail,
         ok: function () {
