@@ -102,7 +102,10 @@ Message format:
 
 ```javascript
 var send = sponsor(transport.sendBeh);
-send({address: 'tcp://localhost:7847', content: '{"some":{"json":"content"}}'});
+send({
+    address: 'tcp://localhost:7847/#ZkiLrAwGX7N1eeOXXMAeoVp7vsYJKeISjfT5fESfkRiZOIpkPx1bAS8y', 
+    content: '{"some":{"json":"content"}}'
+});
 ```
 
 ### transport.server(receptionist)
