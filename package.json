@@ -1,0 +1,33 @@
+{
+  "name": "tart-transport-tcp",
+  "version": "0.0.0",
+  "description": "TCP transport implementation for tart",
+  "scripts": {
+    "inject-examples": "node scripts/injectExamples.js",
+    "readme": "node examples/readme.js",
+    "test": "node scripts/test.js"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "nodeunit": "0.8.2",
+    "tart-tracing": "0.1.5"
+  },
+  "dependencies": {
+    "tart": "0.1.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tristanls/tart-transport-tcp.git"
+  },
+  "keywords": [
+    "tart",
+    "actor",
+    "transport",
+    "tcp"
+  ],
+  "contributors": [
+    "Dale Schumacher <dale.schumacher@gmail.com>",
+    "Tristan Slominski <tristan.slominski@gmail.com>"
+  ],
+  "license": "MIT"
+}
