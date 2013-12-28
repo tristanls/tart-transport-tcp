@@ -1,6 +1,6 @@
 {
   "name": "tart-transport-tcp",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "TCP transport implementation for tart",
   "scripts": {
     "inject-examples": "node scripts/injectExamples.js",
